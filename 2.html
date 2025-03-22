@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Web Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 2em;
+        }
+        nav {
+            background-color: darkblue;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .section {
+            flex: 1;
+            min-width: 300px;
+            margin: 10px;
+            padding: 20px;
+            background-color: lightgray;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>AMAL JYOTHI COLLEGE OF ENGINNERING</header>
+    <nav>
+        <a href="#courses">Courses</a>
+        <a href="#departments">Departments</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#library">Library</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="container">
+        <div class="section" id="courses">
+            <h2>Courses</h2>
+            <p>We offer a wide range of undergraduate and postgraduate courses in various disciplines including Science, Arts, Commerce, and Technology.</p>
+        </div>
+        <div class="section" id="departments">
+            <h2>Departments</h2>
+            <p>Our college has multiple departments such as Computer Science, Mathematics, Physics, Chemistry, and Humanities, each with experienced faculty.</p>
+        </div>
+        <div class="section" id="faculty">
+            <h2>Faculty</h2>
+            <p>Our esteemed faculty members are experts in their fields, dedicated to providing quality education and mentoring students.</p>
+        </div>
+        <div class="section" id="library">
+            <h2>Library</h2>
+            <p>Our library houses thousands of books, research papers, and digital resources, offering a quiet space for study and exploration.</p>
+        </div>
+    </div>
+    <footer id="contact">
+        <p>Contact Us: college@example.com | Phone: (123) 456-7890</p>
+        <p>&copy; 2025 Our College. All rights reserved.</p>
+    </footer>
+</body>
+</html>
