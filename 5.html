@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 2em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 1.2em;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #FFD700;
+        }
+        .container {
+            display: flex;
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .content {
+            flex: 2;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .sidebar {
+            flex: 1;
+            margin-left: 20px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .post {
+            margin-bottom: 20px;
+        }
+        .post h2 {
+            color: #333;
+        }
+        .post p {
+            line-height: 1.5;
+        }
+        .sidebar h3 {
+            color: #333;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>My Blog</header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Categories</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <div class="content">
+            <div class="post">
+                <h2>First Blog Post</h2>
+                <p><b>Published on:</b> March 22, 2025</p>
+                <p>Welcome to my first blog post! This is where I share my thoughts, experiences, and knowledge about various topics. Stay tuned for more interesting posts.</p>
+            </div>
+            <div class="post">
+                <h2>Another Blog Post</h2>
+                <p><b>Published on:</b> March 21, 2025</p>
+                <p>This is another post where I discuss exciting topics and share valuable insights. Let me know your thoughts in the comments!</p>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <h3>Categories</h3>
+            <ul>
+                <li>Technology</li>
+                <li>Travel</li>
+                <li>Food</li>
+                <li>Education</li>
+            </ul>
+
+            <h3>Recent Posts</h3>
+            <ul>
+                <li>First Blog Post</li>
+                <li>Another Blog Post</li>
+                <li>Welcome to My Blog</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2025 My Blog | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
