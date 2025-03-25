@@ -5,3 +5,5 @@
 3. create your resume using html tabs like tables, colours, texts, links, lists, etc.
 4. design a starting webpage for your hometown
 5. design a blog layot using html
+6. design a blog layot using css and html
+
