@@ -1,44 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frame Layout</title>
-    <style>
-        body {
-            margin: 0;
-            height: 100vh;
-            display: grid;
-            grid-template-rows: 1fr 1fr;
-        }
-        .row {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-        }
-        .frame {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5em;
-            font-weight: bold;
-            color: black;
-        }
-        .frame1 { background-color: blue; }
-        .frame2 { background-color: coral; }
-        .frame3 { background-color: green; }
-        .frame4 { background-color: goldenrodyellow; }
-    </style>
 </head>
-<body>
-    <div class="row">
-        <div class="frame frame1">Light Blue</div>
-        <div class="frame frame2">Light Coral</div>
-    </div>
-    <div class="row">
-        <div class="frame frame3">Light Green</div>
-        <div class="frame frame4">Light Goldenrod Yellow</div>
-    </div>
-</body>
+<frameset rows="50%,50%">
+    <frameset cols="50%,50%">
+        <frame style="background-color: #a86060;" name="frame1">
+        <frame style="background-color: #913939;" name="frame2">
+    </frameset>
+    <frameset cols="50%,50%">
+        <frame style="background-color: #571111;" name="frame3">
+        <frame style="background-color: #300202;" name="frame4">
+    </frameset>
+</frameset>
 </html>
